@@ -24,15 +24,15 @@ DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=admin
-OutputDir=X:\Programación\VoXP\SRC\Instalador
+OutputDir=X:\Programación\VoXP
 OutputBaseFilename=VoXP-PLUS-Setup
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
-SetupIconFile=X:\Programación\VoXP\SRC\Instalador\Instaler.ico
-UninstallDisplayIcon=X:\Programación\VoXP\SRC\Instalador\Instaler.ico
-WizardImageFile=X:\Programación\VoXP\SRC\Instalador\1.bmp
-WizardSmallImageFile=X:\Programación\VoXP\SRC\Instalador\2.bmp
+SetupIconFile=X:\Programación\VoXP\Source\Instalador\Instaler.ico
+UninstallDisplayIcon=X:\Programación\VoXP\Source\Instalador\Instaler.ico
+WizardImageFile=X:\Programación\VoXP\Source\Instalador\1.bmp
+WizardSmallImageFile=X:\Programación\VoXP\Source\Instalador\2.bmp
 
 [Languages]
 Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
@@ -41,12 +41,12 @@ Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "X:\Programación\VoXP\SRC\Juego\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "X:\Programación\VoXP\SRC\Juego\DiscordVPN.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "X:\Programación\VoXP\SRC\Juego\Pilot.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "X:\Programación\VoXP\SRC\Juego\DataFiles\*"; DestDir: "{app}\DataFiles"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "X:\Programación\VoXP\SRC\Juego\VoXPlus\*"; DestDir: "{app}\VoxPlus"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "X:\Programación\VoXP\SRC\Instalador\ffdshow.exe"; DestDir: "{app}"; AfterInstall: RunOtherInstaller
+Source: "X:\Programación\VoXP\Source\Juego\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "X:\Programación\VoXP\Source\Juego\DiscordVPN.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "X:\Programación\VoXP\Source\Juego\Pilot.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "X:\Programación\VoXP\Source\Juego\DataFiles\*"; DestDir: "{app}\DataFiles"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "X:\Programación\VoXP\Source\Juego\VoXPlus\*"; DestDir: "{app}\VoxPlus"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "X:\Programación\VoXP\Source\Instalador\ffdshow.exe"; DestDir: "{app}"; AfterInstall: RunOtherInstaller
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
