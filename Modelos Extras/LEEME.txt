@@ -1,0 +1,5 @@
+En esta carpeta encontraras los siguientes modelos para reemplazar:
+
+Uraga reemplaza la nave meltran flagship (melship.x y melshipL.x)
+
+Drone reemplaza a (proximo a revisar)
